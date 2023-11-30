@@ -1,0 +1,82 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{booktabs}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}
+{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+\begin{document}
+\begin{titlepage} % Suppresses displaying the page number on the title page and the subsequent page counts as page 1
+
+	\raggedleft\rule{1pt}{\textheight} % Vertical line
+	\hspace{0.05\textwidth} % Whitespace between the vertical line and title page text
+	\parbox[b]{0.75\textwidth}
+    { % Paragraph box for holding the title page text, adjust the width to move the title page left or right on the page
+		
+		{\Huge\bfseries MIT World Peace University \\[0.5\baselineskip] \ AIMLT}\\[2\baselineskip] % Title
+		{\large\textit{Assignment 2}}\\[4\baselineskip] % Subtitle or further description
+		{\Large\textsc{Naman Soni Roll No. 06}} % Author name, lower case for consistent small caps
+		
+		\vspace{0.5\textheight} % Whitespace between the title block and the publisher
+	}
+
+\end{titlepage}
+\tableofcontents
+\pagebreak
+\section{\textbf{Aim}}
+Study State Space representation for AI problem solving.
+\section{\textbf{Theory}}
+\subsection{\textbf{\textit{State Space Search}}}
+\textbf{State space search} is a problem-solving technique used in Artificial Intelligence (AI) to find the solution
+path from the initial state to the goal state by exploring the various states. The state space search approach
+searches through all possible states of a problem to find a solution. It is an essential part of Artificial
+Intelligence and is used in various applications, from game-playing algorithms to natural language processing.
+
+A state space is a way to mathematically represent a problem by defining all the possible states in which
+the problem can be. This is used in search algorithms to represent the initial state, goal state, and current
+state of the problem. Each state in the state space is represented using a set of variables.
+
+The efficiency of the search algorithm greatly depends on the size of the state space, and it is important
+to choose an appropriate representation and search strategy to search the state space efficiently.
+
+One of the most well-known \textbf{state space search algorithms} is the A algorithm. Other commonly
+used state space search algorithms include \textbf{breadth-first search (BFS), depth-first search (DFS), hill
+climbing, simulated annealing, and genetic algorithms.}
+\subsection{\textbf{\textit{Features of State Space Search}}}
+\textbf{State Space Search} has several features that make it an effective problem-solving technique in Artificial
+Intelligence. These features include:
+\begin{itemize}
+    \item \textbf{Exhaustiveness:} State space search explores all possible states of a problem to find a solution.
+    \item \textbf{Completeness:} If a solution exists, state space search will find it.
+    \item \textbf{Optimality:} Searching through a state space results in an optimal solution.
+    \item \textbf{Uninformed and Informed Search:} State space search in artificial intelligence can be classified as
+    uninformed if it provides additional information about the problem.
+\end{itemize}
+
+\end{document}

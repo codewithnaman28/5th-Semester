@@ -1,0 +1,73 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{booktabs}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}
+{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+\begin{document}
+\begin{titlepage} % Suppresses displaying the page number on the title page and the subsequent page counts as page 1
+
+	\raggedleft\rule{1pt}{\textheight} % Vertical line
+	\hspace{0.05\textwidth} % Whitespace between the vertical line and title page text
+	\parbox[b]{0.75\textwidth}
+    { % Paragraph box for holding the title page text, adjust the width to move the title page left or right on the page
+		
+		{\Huge\bfseries MIT World Peace University \\[0.5\baselineskip] \ Cyber Threat Modelling}\\[2\baselineskip] % Title
+		{\large\textit{Assignment 1}}\\[4\baselineskip] % Subtitle or further description
+		{\Large\textsc{Naman Soni Roll No. 06}} % Author name, lower case for consistent small caps
+		
+		\vspace{0.5\textheight} % Whitespace between the title block and the publisher
+	}
+
+\end{titlepage}
+\tableofcontents
+\pagebreak
+\section{\textbf{Aim}}
+To learn how to scan a host using nmap and understand the output.
+
+\section{\textbf{Objective}}
+\begin{itemize}
+    \item To perform network mapping using nmap.
+    \item To learn about the various options available in nmap.
+    \item TO Scan a network using nmap.
+\end{itemize}
+
+\section{\textbf{Theory}}
+\subsection{\textbf{\textit{Network Mapping}}}
+Network mapping is the  process of discovering devices and hosts on a computer network, and creating a map of the network topology. This map can include information such as IP addresses, MAC addresses, open ports, and services running on the network. Network mapping is often used for security assessments and troubleshooting network issues.
+
+\subsection{\textbf{\textit{Diffrent tools for Network Mapping}}}
+\subsubsection{\textit{Nmap}}
+Nmap is a free and open-source network scanner created by Gordon Lyon. Nmap is used to discover hosts and services on a computer network by sending packets and analyzing the responses. Nmap provides a number of features for probing computer networks, including host discovery and service and operating system detection. These features are extensible by scripts that provide more advanced service detection, vulnerability detection, and other features. Nmap can adapt to network conditions including latency and congestion during a scan. Nmap is available for all major operating systems, including Linux, Windows, and Mac OS.
+
+The Nmap Security Scanner is an open source tool which helps us to find out what ports are open on any given IP address.
+\subsubsection{\textit{Zenmap}}
+
+\end{document}

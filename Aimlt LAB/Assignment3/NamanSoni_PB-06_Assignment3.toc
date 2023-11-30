@@ -1,0 +1,6 @@
+\contentsline {section}{\numberline {1}\textbf {Title}}{2}{}%
+\contentsline {section}{\numberline {2}\textbf {Aim:}}{2}{}%
+\contentsline {section}{\numberline {3}\textbf {Theory}}{2}{}%
+\contentsline {subsection}{\numberline {3.1}\textit {What is Prolog?}}{2}{}%
+\contentsline {subsection}{\numberline {3.2}\textit {What is symbolic language?}}{2}{}%
+\contentsline {subsection}{\numberline {3.3}\textbf {Explain Rules, Facts and Queries}}{2}{}%
